@@ -1,0 +1,174 @@
+.app {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(39, 43, 51);
+  color: #edf2f4;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  
+}
+
+.card {
+  background-color: rgb(60, 62, 68);
+  border-radius: 10px;
+  width: 600px;
+  height: 220px;
+  margin: 0.75rem;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.character-image {
+  width: 229.2;
+  height: 220;
+}
+
+.character-details {
+  padding: 15px;
+  padding-top: 0;
+  flex-grow: 1;
+}
+
+.character-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 0px;
+}
+.character-name a {
+  text-decoration: none;
+  color: #edf2f4;
+}
+.character-name a:hover {
+  color: #f08d49;
+}
+
+.character-status {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.status-icon {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.status-icon.alive {
+  background-color: #55cc44;
+}
+
+.status-icon.dead {
+  background-color: #d63d2e;
+}
+
+.status-icon.unknown {
+  background-color: #9e9e9e;
+}
+
+.character-location,
+.character-first-seen {
+  
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(158, 158, 158);
+  display: block;
+  text-align: left;
+}
+
+.character-location span,
+.character-first-seen span {
+  color: #edf2f4;
+  display: block;;
+  flex-direction: column;
+  margin-top: 4px;
+  text-align: left;
+  font-size: 18px;
+}
+.character-first-seen a {
+  text-decoration: none;
+}
+
+.character-first-seen a span:hover {
+  color: #f08d49;
+}
+.character-location a {
+  text-decoration: none;
+}
+
+.character-location a span:hover {
+  color: #f08d49;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #555;
+}
+
+.pagination button:hover {
+  background-color: #444;
+}
+/* Filters Styles */
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filters input,
+.filters select,
+.filters button {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.filters input {
+  flex: 1;
+  min-width: 200px;
+}
+
+.filters select {
+  flex: 1;
+  min-width: 150px;
+}
+
+.filters button {
+  background-color: rgb(255, 152, 0);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.filters button:hover {
+  background-color: rgb(255, 180, 28);
+
+}

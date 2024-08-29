@@ -1,0 +1,47 @@
+.main {
+    min-height:391.84px;
+    padding-top: 70px;
+    text-align: center; 
+    background-color: rgb(32, 35, 41);
+  }
+  
+  ul {
+    list-style: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use Flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Space between items */
+  }
+  
+  li {
+    margin: 0; /* Remove default margin */
+  }
+  
+  a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color from parent */
+  }
+  
+  .list_item {
+    padding: 8px 12px; /* Add padding */
+    border-radius: 4px; /* Rounded corners */
+    color: rgb(158, 158, 158);
+    font-size: 14px;
+    font-family: 'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial'
+    ,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    font-weight: bold;
+  }
+  
+  a:hover .list_item {
+    color:  rgb(255, 152, 0);
+  }
+  .status-icon {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #55cc44;
+  }
